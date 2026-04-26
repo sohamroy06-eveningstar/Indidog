@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "version": "1.1",
+    "last_updated": "2026-04",
+    "platform": "IndiDog"
+  },
+
+  "categories": [
+    {
+      "id": "C001",
+      "name": "Health",
+      "description": "Medical care and disease prevention"
+    },
+    {
+      "id": "C002",
+      "name": "Food & Nutrition",
+      "description": "Diet and feeding guides"
+    },
+    {
+      "id": "C003",
+      "name": "Rescue & Care",
+      "description": "Street dog rescue and daily care"
+    },
+    {
+      "id": "C004",
+      "name": "Awareness",
+      "description": "General awareness and education"
+    }
+  ],
+
+  "blogs": [
+    {
+      "id": "B001",
+      "title": "How to Care for Street Dogs in Summer",
+      "slug": "street-dogs-summer-care",
+      "category": "Rescue & Care",
+      "author": "IndiDog Team",
+      "published_date": "2026-04-01",
+      "updated_at": "2026-04-01",
+      "read_time": "5 min",
+      "featured": true,
+
+      "cover": "/images/blog/summer-care.jpg",
+
+      "excerpt": "Help street dogs survive extreme summer heat with simple steps.",
+      "summary": "Simple ways to help street dogs survive extreme summer heat.",
+
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Summer can be extremely harsh for street dogs. High temperatures often lead to dehydration and heatstroke."
+        },
+        {
+          "type": "heading",
+          "text": "Provide Clean Water"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Place water bowls in shaded areas",
+            "Refill twice daily",
+            "Use heavy bowls to prevent spilling"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Create Shade"
+        },
+        {
+          "type": "paragraph",
+          "text": "Provide temporary shelter using cardboard, cloth, or plastic sheets."
+        }
+      ],
+
+      "tags": ["summer", "hydration", "street-dogs"]
+    },
+
+    {
+      "id": "B002",
+      "title": "Best Food for Indian Street Dogs",
+      "slug": "best-food-street-dogs",
+      "category": "Food & Nutrition",
+      "author": "IndiDog Team",
+      "published_date": "2026-04-02",
+      "updated_at": "2026-04-02",
+      "read_time": "6 min",
+
+      "cover": "/images/blog/food-guide.jpg",
+
+      "excerpt": "Affordable and nutritious food options for street dogs.",
+      "summary": "Affordable and nutritious food options for feeding stray dogs.",
+
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Feeding street dogs does not require expensive food. Balanced meals can be made with simple ingredients."
+        },
+        {
+          "type": "heading",
+          "text": "Recommended Foods"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Rice + Chicken",
+            "Rice + Eggs",
+            "Vegetable mix"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Foods to Avoid"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Chocolate",
+            "Spicy food",
+            "Onion and garlic"
+          ]
+        }
+      ],
+
+      "tags": ["food", "nutrition", "feeding"]
+    },
+
+    {
+      "id": "B003",
+      "title": "Common Dog Diseases and Prevention",
+      "slug": "dog-diseases-prevention",
+      "category": "Health",
+      "author": "IndiDog Team",
+      "published_date": "2026-04-03",
+      "updated_at": "2026-04-03",
+      "read_time": "7 min",
+
+      "cover": "/images/blog/diseases.jpg",
+
+      "excerpt": "Learn about common diseases and how to prevent them.",
+      "summary": "Learn about common diseases and how to prevent them.",
+
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Street dogs are exposed to many diseases due to poor living conditions."
+        },
+        {
+          "type": "heading",
+          "text": "Major Diseases"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Rabies",
+            "Parvovirus",
+            "Distemper"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Prevention Tips"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vaccination",
+            "Clean feeding area",
+            "Regular monitoring"
+          ]
+        }
+      ],
+
+      "tags": ["health", "disease", "prevention"]
+    },
+
+    {
+      "id": "B004",
+      "title": "How to Help an Injured Street Dog",
+      "slug": "help-injured-dog",
+      "category": "Rescue & Care",
+      "author": "IndiDog Team",
+      "published_date": "2026-04-04",
+      "updated_at": "2026-04-04",
+      "read_time": "5 min",
+
+      "cover": "/images/blog/rescue.jpg",
+
+      "excerpt": "Step-by-step guide to help injured street dogs safely.",
+      "summary": "Step-by-step guide to safely help injured dogs.",
+
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Helping an injured dog requires patience and safety."
+        },
+        {
+          "type": "heading",
+          "text": "Steps to Follow"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Approach slowly",
+            "Use gloves",
+            "Stop bleeding if possible",
+            "Contact a vet"
+          ]
+        }
+      ],
+
+      "tags": ["rescue", "first-aid"]
+    },
+
+    {
+      "id": "B005",
+      "title": "Why Sterilization is Important",
+      "slug": "importance-of-sterilization",
+      "category": "Awareness",
+      "author": "IndiDog Team",
+      "published_date": "2026-04-05",
+      "updated_at": "2026-04-05",
+      "read_time": "4 min",
+
+      "cover": "/images/blog/sterilization.jpg",
+
+      "excerpt": "Understand why sterilization is important for street dogs.",
+      "summary": "Understand the importance of sterilization programs.",
+
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Sterilization helps control stray dog population and improves health."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Reduces aggression",
+            "Prevents unwanted breeding",
+            "Improves community safety"
+          ]
+        }
+      ],
+
+      "tags": ["awareness", "sterilization"]
+    }
+  ]
+}

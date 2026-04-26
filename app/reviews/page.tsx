@@ -130,11 +130,10 @@ export default function ReviewsPage() {
                 {r.comment}
               </p>
 
-              {/* ✅ FIXED IMAGE DISPLAY */}
               {r.image && (
                 <img
                   src={r.image}
-                  className="mt-4 rounded-xl w-full max-h-[500px] object-contain shadow"
+                  className="mt-4 rounded-xl w-full h-56 object-cover shadow"
                 />
               )}
             </div>

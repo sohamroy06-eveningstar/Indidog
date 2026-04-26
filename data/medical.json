@@ -1,0 +1,274 @@
+{
+  "meta": {
+  "version": "2.0",
+  "last_updated": "2026-04",
+  "region": "India",
+  "species": "Canine (Indian Pariah / Street Dogs)"
+},
+"disclaimer": {
+  "text": "This information is for educational purposes only. Always consult a licensed veterinarian.",
+  "level": "mandatory"
+},
+
+  "diseases": [
+    {
+      "id": "D001",
+      "name": "Rabies",
+      "category": "Viral",
+      "zoonotic": true,
+      "transmission": ["Bite", "Saliva contact"],
+      "incubation_period_days": "10-90",
+      "symptoms": [
+        "Aggression",
+        "Excess salivation",
+        "Paralysis",
+        "Hydrophobia"
+      ],
+      "diagnosis": ["Clinical signs", "Post-mortem lab test"],
+      "treatment": "No treatment after symptoms",
+      "mortality_rate": "~100%",
+      "prevention": ["Annual vaccination"],
+      "protocol": {
+        "suspected_case": [
+          "Isolate animal",
+          "Avoid contact",
+          "Inform authorities"
+        ]
+      }
+    },
+
+    {
+      "id": "D002",
+      "name": "Canine Parvovirus",
+      "category": "Viral",
+      "zoonotic": false,
+      "transmission": ["Fecal-oral"],
+      "incubation_period_days": "3-7",
+      "symptoms": [
+        "Bloody diarrhea",
+        "Vomiting",
+        "Severe dehydration"
+      ],
+      "diagnosis": ["Parvo test kit", "CBC"],
+      "treatment": [
+        "IV fluids",
+        "Antibiotics",
+        "Antiemetics"
+      ],
+      "mortality_rate": "High (puppies)",
+      "prevention": ["Vaccination", "Sanitation"]
+    },
+
+    {
+      "id": "D003",
+      "name": "Canine Distemper",
+      "category": "Viral",
+      "zoonotic": false,
+      "transmission": ["Airborne"],
+      "incubation_period_days": "7-14",
+      "symptoms": [
+        "Fever",
+        "Eye discharge",
+        "Seizures"
+      ],
+      "diagnosis": ["PCR", "Clinical signs"],
+      "treatment": ["Supportive care"],
+      "mortality_rate": "High",
+      "prevention": ["Vaccination"]
+    },
+
+    {
+      "id": "D004",
+      "name": "Mange (Demodectic / Sarcoptic)",
+      "category": "Parasitic",
+      "zoonotic": "Partial",
+      "symptoms": [
+        "Hair loss",
+        "Itching",
+        "Skin crust"
+      ],
+      "diagnosis": ["Skin scraping"],
+      "treatment": [
+        "Ivermectin",
+        "Amitraz dips",
+        "Medicated baths"
+      ],
+      "prevention": ["Hygiene"]
+    },
+
+    {
+      "id": "D005",
+      "name": "Tick Fever (Ehrlichiosis)",
+      "category": "Bacterial",
+      "transmission": ["Ticks"],
+      "symptoms": [
+        "Fever",
+        "Weakness",
+        "Bleeding disorders"
+      ],
+      "diagnosis": ["Blood smear", "PCR"],
+      "treatment": ["Doxycycline"],
+      "prevention": ["Tick control"]
+    },
+
+    {
+      "id": "D006",
+      "name": "Leptospirosis",
+      "category": "Bacterial",
+      "zoonotic": true,
+      "transmission": ["Contaminated water"],
+      "symptoms": [
+        "Fever",
+        "Kidney failure",
+        "Jaundice"
+      ],
+      "diagnosis": ["Blood test"],
+      "treatment": ["Penicillin", "Doxycycline"],
+      "prevention": ["Vaccination"]
+    }
+  ],
+
+  "vaccines": [
+    {
+      "id": "V001",
+      "name": "Rabies",
+      "type": "Core",
+      "schedule": {
+        "first_dose_weeks": 12,
+        "booster": "Yearly"
+      },
+      "route": "IM",
+      "prevents": ["Rabies"]
+    },
+    {
+      "id": "V002",
+      "name": "DHPPi (7-in-1)",
+      "type": "Core",
+      "schedule": {
+        "start_weeks": 6,
+        "repeat_every_weeks": 3,
+        "boosters": "Yearly"
+      },
+      "prevents": [
+        "Distemper",
+        "Parvovirus",
+        "Hepatitis",
+        "Parainfluenza"
+      ]
+    },
+    {
+      "id": "V003",
+      "name": "Leptospirosis",
+      "type": "Non-core",
+      "schedule": {
+        "start_weeks": 8,
+        "booster": "Yearly"
+      }
+    }
+  ],
+
+  "medicines": [
+    {
+      "id": "M001",
+      "name": "Ivermectin",
+      "class": "Antiparasitic",
+      "indications": ["Mange", "Worms"],
+      "dosage": "0.2–0.4 mg/kg",
+      "route": ["Oral", "Injection"],
+      "warnings": ["Overdose toxic"]
+    },
+    {
+      "id": "M002",
+      "name": "Doxycycline",
+      "class": "Antibiotic",
+      "indications": ["Tick fever", "Leptospirosis"],
+      "dosage": "5–10 mg/kg",
+      "duration_days": "7-21"
+    },
+    {
+      "id": "M003",
+      "name": "Ceftriaxone",
+      "class": "Antibiotic",
+      "indications": ["Severe infections"],
+      "route": "Injection"
+    },
+    {
+      "id": "M004",
+      "name": "Meloxicam",
+      "class": "NSAID",
+      "indications": ["Pain", "Inflammation"],
+      "dosage": "0.1 mg/kg"
+    },
+    {
+      "id": "M005",
+      "name": "Ketoconazole",
+      "class": "Antifungal",
+      "indications": ["Fungal infections"]
+    }
+  ],
+
+  "deworming": {
+    "puppies": "Every 2 weeks until 3 months",
+    "adults": "Every 3 months",
+    "common_drugs": ["Albendazole", "Fenbendazole"]
+  },
+
+  "sterilization": {
+    "recommended_age_months": 6,
+    "benefits": [
+      "Population control",
+      "Reduced aggression",
+      "Lower disease spread"
+    ]
+  },
+
+  "first_aid_protocols": [
+    {
+      "case": "Open wound",
+      "steps": [
+        "Clean with saline",
+        "Apply povidone-iodine",
+        "Bandage"
+      ]
+    },
+    {
+      "case": "Heatstroke",
+      "steps": [
+        "Move to shade",
+        "Cool body slowly",
+        "Hydrate"
+      ]
+    },
+    {
+      "case": "Road accident",
+      "steps": [
+        "Do not move spine",
+        "Stop bleeding",
+        "Transport to vet"
+      ]
+    }
+  ],
+
+  "diagnostics": [
+    "CBC (Complete Blood Count)",
+    "X-ray",
+    "Ultrasound",
+    "Parvo test kit",
+    "Skin scraping"
+  ],
+
+  "ngo_field_operations": {
+    "rescue_steps": [
+      "Assess safety",
+      "Use gloves",
+      "Transport safely"
+    ],
+    "vaccination_drive": [
+      "Catch",
+      "Vaccinate",
+      "Mark (ear notch/paint)",
+      "Release"
+    ],
+    "abc_program": "Animal Birth Control (Sterilization + Rabies)"
+  }
+}

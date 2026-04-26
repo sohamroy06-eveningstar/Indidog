@@ -1,0 +1,222 @@
+{
+  "meta": {
+    "version": "1.1",
+    "last_updated": "2026-04",
+    "region": "India",
+    "species": "Canine (Street / Indian Pariah Dogs)"
+  },
+
+  "disclaimer": {
+    "text": "Dietary information is for general guidance only. Consult a veterinarian for specific health conditions or special diets.",
+    "level": "mandatory"
+  },
+
+  "diet_categories": [
+    {
+      "id": "F001",
+      "name": "Staple Diet",
+      "description": "Daily balanced meals for street and pet dogs",
+      "foods": [
+        {
+          "name": "Rice + Chicken",
+          "type": "Protein + Carbohydrate",
+          "benefits": [
+            "Easy digestion",
+            "Good energy source"
+          ],
+          "serving": "1–2 cups per meal",
+          "frequency": "Daily"
+        },
+        {
+          "name": "Rice + Eggs",
+          "type": "Protein",
+          "benefits": [
+            "High protein",
+            "Supports muscle growth"
+          ],
+          "serving": "1–2 eggs with rice",
+          "frequency": "3-4 times/week"
+        },
+        {
+          "name": "Roti + Milk",
+          "type": "Not Recommended",
+          "notes": [
+            "Milk may cause lactose intolerance",
+            "Low nutritional balance",
+            "Avoid regular feeding"
+          ],
+          "frequency": "Occasional only"
+        }
+      ]
+    },
+
+    {
+      "id": "F002",
+      "name": "Protein Sources",
+      "description": "Essential for growth and immunity",
+      "foods": [
+        {
+          "name": "Boiled Chicken",
+          "protein_content": "High",
+          "benefits": ["Muscle development", "Easy digestion"],
+          "notes": "No spices, no oil"
+        },
+        {
+          "name": "Eggs",
+          "protein_content": "High",
+          "benefits": ["Strong immunity", "Healthy coat"],
+          "notes": "Serve boiled only"
+        },
+        {
+          "name": "Fish",
+          "protein_content": "High",
+          "benefits": ["Omega-3 fatty acids"],
+          "warnings": ["Remove bones"]
+        }
+      ]
+    },
+
+    {
+      "id": "F003",
+      "name": "Vegetables",
+      "description": "Fiber and vitamins",
+      "foods": [
+        {
+          "name": "Carrot",
+          "benefits": ["Improves eyesight", "Rich in vitamins"],
+          "serving": "Boiled or raw small pieces"
+        },
+        {
+          "name": "Pumpkin",
+          "benefits": ["Good for digestion"],
+          "serving": "Boiled"
+        },
+        {
+          "name": "Spinach",
+          "benefits": ["Iron source"],
+          "warnings": ["Do not overfeed"]
+        }
+      ]
+    },
+
+    {
+      "id": "F004",
+      "name": "Street Feeding Options",
+      "description": "Practical feeding for stray dogs",
+      "foods": [
+        {
+          "name": "Rice + Chicken Broth",
+          "cost_level": "Low",
+          "benefits": ["Hydration", "Energy"]
+        },
+        {
+          "name": "Biscuits (Dog-safe)",
+          "warnings": ["Avoid sugary biscuits"]
+        },
+        {
+          "name": "Leftover Plain Food",
+          "warnings": ["No spicy or oily food"]
+        }
+      ]
+    }
+  ],
+
+  "harmful_foods": [
+    {
+      "name": "Chocolate",
+      "toxicity_level": "High",
+      "effects": ["Vomiting", "Seizures", "Death"],
+      "severity": "critical"
+    },
+    {
+      "name": "Onion & Garlic",
+      "toxicity_level": "High",
+      "effects": ["Red blood cell damage"],
+      "severity": "critical"
+    },
+    {
+      "name": "Grapes & Raisins",
+      "toxicity_level": "High",
+      "effects": ["Kidney failure"],
+      "severity": "critical"
+    },
+    {
+      "name": "Cooked Bones",
+      "toxicity_level": "High",
+      "effects": ["Choking", "Internal injury"],
+      "severity": "critical"
+    },
+    {
+      "name": "Milk (Excess)",
+      "toxicity_level": "Moderate",
+      "effects": ["Diarrhea", "Gas"],
+      "severity": "moderate"
+    },
+    {
+      "name": "Maida / Refined Flour",
+      "toxicity_level": "Moderate",
+      "effects": ["Digestive issues", "Obesity"],
+      "severity": "moderate"
+    },
+    {
+      "name": "Spicy Food",
+      "toxicity_level": "Moderate",
+      "effects": ["Stomach irritation"],
+      "severity": "moderate"
+    }
+  ],
+
+  "feeding_guidelines": {
+    "puppies": {
+      "age_range": "0-6 months",
+      "frequency_per_day": "3-4 meals",
+      "notes": [
+        "High protein diet required",
+        "Avoid hard food"
+      ]
+    },
+    "adults": {
+      "frequency_per_day": "2 meals",
+      "notes": [
+        "Balanced diet",
+        "Avoid overfeeding"
+      ]
+    },
+    "senior_dogs": {
+      "frequency_per_day": "2 small meals",
+      "notes": [
+        "Soft food preferred",
+        "Low fat diet"
+      ]
+    }
+  },
+
+  "hydration": {
+    "importance": "Critical",
+    "guidelines": [
+      "Always provide clean water",
+      "Change water daily",
+      "Increase intake in summer"
+    ]
+  },
+
+  "nutrition_balance": {
+    "protein": "20-30%",
+    "carbohydrates": "30-50%",
+    "fats": "10-20%",
+    "fiber": "Moderate"
+  },
+
+  "ngo_feeding_program": {
+    "best_practices": [
+      "Feed at same location daily",
+      "Maintain hygiene",
+      "Avoid plastic waste"
+    ],
+    "low_cost_meals": [
+      "Rice + Chicken waste",
+      "Rice + Egg",
+      "Rice + Vegetable mix"
+    ]
+  }
+}
